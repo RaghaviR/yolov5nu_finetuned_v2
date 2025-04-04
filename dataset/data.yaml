@@ -1,0 +1,9 @@
+train: /Users/raghaviramamoorthy/Downloads/yolov5nu_finetuned_v2/dataset/images/train
+val: /Users/raghaviramamoorthy/Downloads/yolov5nu_finetuned_v2/dataset/images/val
+test: /Users/raghaviramamoorthy/Downloads/yolov5nu_finetuned_v2/dataset/images/test
+
+augmentation: True
+nc: 3  # 3 Custom classes
+names: [
+    "logo", "selected", "unselected"
+]
