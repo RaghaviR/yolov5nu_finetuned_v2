@@ -4,7 +4,7 @@
 This repository contains a pytorch implementation of a YOLO-like model for object detection.
 It supports training and model inference.
 
-This project focuses on object detection using the YOLO (You Only Look Once) model, a Convolutional Neural Network (CNN) architecture known for its speed and accuracy. The process involved two major steps: starting with a pre-trained model on the COCO dataset (which includes 80 common object classes), and then fine-tuning it using a small custom dataset tailored to specific use cases.
+This project focuses on fine tuning object detection using the YOLO (You Only Look Once) model, a Convolutional Neural Network (CNN) architecture known for its speed and accuracy. The process involved two major steps: starting with a pre-trained model on the COCO dataset (which includes 80 common object classes), and then fine-tuning it using a small custom dataset tailored to specific use cases.
 
 🏷️ Custom Classes & Use Case
 The model was trained to detect both common objects like “person” and “plant”, as well as custom categories like:
